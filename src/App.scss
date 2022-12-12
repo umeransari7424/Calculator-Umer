@@ -1,0 +1,26 @@
+.calculator{
+  .num{
+    width: 70px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 70px;
+    border: 2px solid green !important;
+    border-radius: 50%;
+    &:hover{
+      background-color: white !important;
+      color: black !important;;
+    }
+  }
+  .clear{
+    width: 90px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 70px;
+    border: 2px solid green !important;
+    // border-radius: 50%;
+    &:hover{
+      background-color: white !important;
+      color: black !important;;
+    }
+  }
+}
